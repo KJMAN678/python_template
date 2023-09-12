@@ -1,18 +1,30 @@
 ## Poetry による仮想環境の作成
 
-```
+```sh
+# 初期化して pyproject.toml を追加
+poetry init
+
+# ライブラリのインストール
+poetry install
+
+# ライブラリを pyproject.toml に追加
 poetry add <library name>
 
+# ライブラリを pyproject.toml から除去
 poetry remove <library name>
 
-poetry install
+# 仮想環境の有効化
+poetry shell
+
+# 仮想環境の終了
+exit
 ```
 
 - [Poetry document](https://cocoatomo.github.io/poetry-ja/cli/)
 
 ## venv による仮想環境の作成
 
-```
+```sh
 # 仮想環境の作成
 python3 -m venv .venv
 
