@@ -24,6 +24,9 @@ poetry shell
 
 # 仮想環境の終了
 exit
+
+# 仮想環境を立ち上げずに python の実行
+poetry run python xxx.py
 ```
 ```
 
