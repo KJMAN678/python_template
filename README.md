@@ -7,6 +7,12 @@ poetry init
 # ライブラリのインストール
 poetry install
 
+# ライブラリ等のアップデート
+poetry update
+
+# Python のバージョン変更 (ex. 3.10.13)
+poetry env use 3.10.13
+
 # ライブラリを pyproject.toml に追加
 poetry add <library name>
 
@@ -18,6 +24,7 @@ poetry shell
 
 # 仮想環境の終了
 exit
+```
 ```
 
 - [Poetry document](https://cocoatomo.github.io/poetry-ja/cli/)
