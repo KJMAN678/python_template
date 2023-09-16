@@ -71,3 +71,9 @@ docker compose exec poetrytest bash
 # コンテナから出る
 exit
 ```
+
+### リンター(ruff) ・ テスト (pytest) スクリプトの実行
+
+```sh
+./test.sh
+```
