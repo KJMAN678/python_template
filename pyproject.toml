@@ -13,12 +13,15 @@ pytest = "^7.4.2"
 ruff = "^0.0.287"
 pydocstyle = "^6.3.0"
 jupyterlab = "^4.0.5"
-
+pyrefly = "^0.53.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.uv]
+link-mode = "copy"
+exclude-newer = "28 days"
 
 [tool.ruff]
 target-version = "py38"
