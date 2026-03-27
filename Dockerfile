@@ -3,6 +3,6 @@ FROM python:3.13-slim-bookworm
 COPY --from=ghcr.io/astral-sh/uv:0.10.2 /uv /uvx /bin/
 
 # Sync the project into a new environment, using the frozen lockfile
-WORKDIR /app/backend
-COPY . /app/backend
+WORKDIR /app
+COPY . /app
 RUN uv sync --dev
