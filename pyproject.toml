@@ -13,7 +13,7 @@ dev = [
     "pydocstyle==6.3.0",
     "pyrefly==0.53.0",
     "pytest==9.0.2",
-    "ruff==0.15.2",
+    "ruff==0.15.4",
 ]
 
 [tool.uv]
