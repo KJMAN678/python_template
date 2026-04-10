@@ -5,7 +5,7 @@ description = "python template"
 readme = "README.md"
 requires-python = "<3.14, >=3.12"
 dependencies = [
-    "jupyterlab==4.5.5",
+    "jupyterlab==4.5.6",
 ]
 
 [dependency-groups]
